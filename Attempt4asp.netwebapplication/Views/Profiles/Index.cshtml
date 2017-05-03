@@ -3,16 +3,16 @@
     ViewBag.Title = "Index";
 }
 
+
+
 <h2>Profile</h2>
 
 <p>This will be the profile page for the term project.</p>
-<p>Why isn't this working</p>
-<p>It's Working!!! :)</p>
 
 <hr>
 <div class="container">
     <div class="row">
-        <div class="col-sm-10"><h1>Usernames</h1></div>
+        <div class="col-sm-10"><h1>Username</h1></div>
 
     </div>
     <div class="row">
@@ -43,20 +43,25 @@
 
             <ul class="list-group">
                 <li class="list-group-item text-muted">Activity</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong>Songs Uploaded</strong></span> Amount of Songs uploaded by user</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong>Likes</strong></span> number of songs liked by user</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong>Songs Uploaded</strong></span> 7</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong>Songs Liked</strong></span>12</li>
 
             </ul>
 
             <div class="panel panel-default">
                 <div class="panel-heading">Social Media</div>
                 <div class="panel-body">
-                    <p>Facebook Login button goes here</p>
+                   <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>-->
+                 <!--   <a class="btn btn-social-icon btn-facebook"></a>   -->
+                    <p><a href="https://www.facebook.com/" class="btn btn-primary btn-sm">Facebook Login</a></p>
+
                 </div>
             </div>
 
         </div><!--/col-3-->
         <div class="col-sm-9">
+
+         <h3><strong>Music</strong></h3>
 
             <div class="table-responsive">
                 <table class="table table-hover">
@@ -91,14 +96,28 @@
                     </tbody>
                 </table>
                 <hr>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4 text-center">
-                        <ul class="pagination" id="myPager"></ul>
-                    </div>
-                </div>
+
             </div><!--/table-resp-->
 
             <hr>
+
+            <h3><strong>Updates</strong></h3>
+            
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td><i class="pull-right"></i>Upcoming or new information about profile or website goes here.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="pull-right"></i>Upcoming or new information about profile or website goes here.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="pull-right"></i>Upcoming or new information about profile or website goes here.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!-- Table responsive ends here-->
 
         </div><!--end of col-9-->
     </div><!--end of row-->
